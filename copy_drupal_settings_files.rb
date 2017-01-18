@@ -1,3 +1,7 @@
+#
+# Cookbook Name:: deploy
+# Recipe:: copy_drupal_settings_files
+#
 require 'aws-sdk'
 
 s3 = AWS::S3.new
