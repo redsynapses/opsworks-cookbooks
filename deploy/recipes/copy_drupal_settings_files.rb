@@ -7,7 +7,7 @@ require 'aws-sdk'
 s3 = AWS::S3.new
 
 # Set bucket and object name
-obj = s3.buckets['settings-file'].objects['settings.php']
+obj = s3.buckets['sandbox-redsyn-settings-file'].objects['settings.php']
 
 # Read content to variable
 file_content = obj.read
